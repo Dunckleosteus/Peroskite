@@ -3,6 +3,7 @@ pkgs.mkShell
 {
 	nativeBuildInputs = with pkgs; [
 		python312
+                python312Packages.plotly
 		python312Packages.pandas
                 python312Packages.wget
 		python312Packages.numpy
